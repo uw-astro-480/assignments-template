@@ -1,0 +1,19 @@
+[project]
+name = "astr-480-assignments-template"
+version = "0.1.0"
+description = "Template to create ASTR 480 assignments"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0.0"
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.10.0",
+    "pytest-cov>=2.8.1",
+    "pytest-mock>=1.13.0",
+    "pytest-sugar>=0.9.2",
+    "ipython>=9.0.0"
+]
