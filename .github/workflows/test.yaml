@@ -37,12 +37,12 @@ jobs:
         uses: classroom-resources/autograding-command-grader@v1
         with:
           test-name: Pytest test
-          command: pytest
+          command: uv run pytest
           timeout: 60
           max-score: 100
 
       - name: Autograding Reporter
-        uses: ./
+        uses: classroom-resources/autograding-grading-reporter@v1
         env:
           PYTEST-TEST_RESULTS: "${{steps.pytest-test.outputs.result}}"
         with:
