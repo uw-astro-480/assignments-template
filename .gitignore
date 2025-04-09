@@ -115,3 +115,15 @@ ENV/
 *.swo
 
 pyrightconfig.json
+
+*.pdf
+*.png
+*.jpg
+*.fits
+*.fit
+*.fits.gz
+*.parquet
+*.csv
+*.json
+*.yaml
+*.yml
