@@ -73,6 +73,7 @@ docs/sphinx/_build/
 target/
 
 # Jupyter Notebook
+.ipynb
 .ipynb_checkpoints
 
 # pyenv
@@ -127,3 +128,6 @@ pyrightconfig.json
 *.json
 *.yaml
 *.yml
+
+# Allow notebooks in the notebooks directory
+!notebooks/*.ipynb
