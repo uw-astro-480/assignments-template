@@ -129,5 +129,9 @@ pyrightconfig.json
 *.yaml
 *.yml
 
+*.tar
+*.tar*
+*.zip
+
 # Allow notebooks in the notebooks directory
 !notebooks/*.ipynb
